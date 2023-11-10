@@ -1,20 +1,19 @@
-<template>
-  <main>
-    <h1>Hello</h1>
-  </main>
-</template>
-
 <script setup lang="ts">
 
 </script>
 
+<template>
+  <footer>
+    <h2>Footer</h2>
+  </footer>
+</template>
+
 <style scoped lang="scss">
 @import 'assets/scss/_global.scss';
-main {
+h2 {
   width: 100%;
-  height: 100vh;
-  background: yellow;
-  margin: 0;
+  height: 100px;
+  background: #4051d5;
 }
 
 </style>
