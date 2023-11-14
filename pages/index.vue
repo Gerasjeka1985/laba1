@@ -1,20 +1,16 @@
-<template>
-  <main>
-    <h1>Hello</h1>
-  </main>
-</template>
-
 <script setup lang="ts">
 
 </script>
 
+
+<template>
+ <main-page></main-page>
+</template>
+
 <style scoped lang="scss">
 @import 'assets/scss/_global.scss';
-main {
-  width: 100%;
-  height: 100vh;
-  background: yellow;
-  margin: 0;
-}
 
+@include breakpoint(large) {
+
+}
 </style>
